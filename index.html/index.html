@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Running Coaching</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 p-6 shadow-md fixed w-full top-0 z-50">
+    <div class="max-w-screen-xl mx-auto flex justify-between items-center">
+      <div class="text-white text-2xl font-bold">Contact Me</div>
+      <div class="space-x-8">
+        <a href="#home" class="text-white hover:text-gray-300 transition">Home</a>
+        <a href="#coaching" class="text-white hover:text-gray-300 transition">Coaching</a>
+        <a href="#contact" class="text-white hover:text-gray-300 transition">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section with Three Photos -->
+  <section id="home" class="h-screen flex justify-center items-center bg-gray-800 text-white relative">
+    <div class="grid grid-cols-3 gap-4 w-full h-full">
+      <img src="img_1081.jpg" class="object-cover w-full h-full opacity-80" />
+      <img src="img_9820.jpg" class="object-cover w-full h-full opacity-80 transform scale-110" />
+      <img src="img_1092.jpg" class="object-cover w-full h-full opacity-80" />
+    </div>
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="z-10 text-center absolute top-1/4 left-0 right-0 flex flex-col items-center">
+      <h1 class="text-5xl font-bold text-white drop-shadow-lg">Coaching by James Silva</h1>
+      <p class="text-xl mt-4 bg-black bg-opacity-60 p-4 rounded-lg">Elite level training to improve your personal bests!</p>
+    </div>
+  </section>
+
+  <!-- Coaching Section with Subscription Button -->
+  <section id="coaching" class="h-screen flex flex-col justify-center items-center bg-gray-800 text-white relative">
+    <div class="z-10 text-center">
+      <h2 class="text-4xl font-semibold mb-4">Coaching Programs</h2>
+      <p class="text-lg max-w-2xl">I offer coaching tailored to your goals, experience, and needs.</p>
+      <ul class="text-lg mt-4 list-disc pl-6">
+        <li>Customized Training Plans</li>
+        <li>Weekly Progress Check-ins</li>
+        <li>Nutrition and Recovery Guidance</li>
+        <li>Online and In-Person Coaching Options</li>
+      </ul>
+      <a href="checkout.html" class="mt-6 px-6 py-3 bg-yellow-500 text-black rounded-lg hover:bg-yellow-400 transition">Sign Up & Pay</a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="h-screen flex flex-col justify-center items-center bg-gradient-to-r from-purple-500 to-purple-700 text-white relative">
+    <div class="z-10 text-center">
+      <h2 class="text-4xl font-semibold mb-4">Contact Me</h2>
+      <p class="text-lg max-w-2xl">Have questions? Reach out!</p>
+      <p class="text-xl">Email: <a href="mailto:James.silva.2423@gmail.com" class="underline text-yellow-500">James.silva.2423@gmail.com</a></p>
+      <p class="text-xl mt-2">Instagram: <a href="https://www.instagram.com/Jayysilva24/" target="_blank" class="underline text-yellow-500">@Jayysilva24</a></p>
+    </div>
+  </section>
+
+</body>
+</html>
